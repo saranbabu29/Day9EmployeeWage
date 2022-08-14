@@ -7,9 +7,11 @@ namespace EmployeeWage
         public const int isFullTime = 0;
         public const int isPartTime = 1;
         public const int wagePerHour = 20;
+        public const int days = 20;
         static void Main(string[] args)
         {
             int empHr;
+            int wage, wagePerDay;
 
             Console.WriteLine("Welcome to Employee Wage Computation");
             Console.WriteLine("------------------------------------");
@@ -21,11 +23,15 @@ namespace EmployeeWage
             {
                 case isFullTime:
                     empHr = 8;
-                    Console.WriteLine("Employee is Full Time and Daily Wage is " + (empHr * wagePerHour));
+                    wagePerDay = empHr * wagePerHour;
+                    wage = wagePerDay * days;
+                    Console.WriteLine("Employee is Full Time and Wage is " +wage );
                     break;
                 case isPartTime:
                     empHr = 4;
-                    Console.WriteLine("Employee is Part Time and Daily Wage is " + (empHr * wagePerHour));
+                    wagePerDay = empHr * wagePerHour;
+                    wage = wagePerDay * days;
+                    Console.WriteLine("Employee is Part Time and Wage is " +wage);
                     break;
                 default:
                     empHr = 0;
