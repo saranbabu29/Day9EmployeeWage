@@ -7,6 +7,8 @@ namespace EmployeeWage
         static void Main(string[] args)
         {
             int isPresent = 0;
+            int wagePerHour = 20;
+            int empHr;
             Console.WriteLine("Welcome to Employee Wage Computation");
             Console.WriteLine("------------------------------------");
 
@@ -15,7 +17,8 @@ namespace EmployeeWage
 
             if (value == isPresent)
             {
-                Console.WriteLine("Employee is Present");
+                empHr = 8;
+                Console.WriteLine("Employee is Present and Wage is "+(empHr*wagePerHour));
             }
             else
             {
