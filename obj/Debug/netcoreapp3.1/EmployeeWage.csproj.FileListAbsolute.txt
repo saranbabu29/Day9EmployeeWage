@@ -1,0 +1,14 @@
+C:\Users\bagav\saran\visual studio\Day9 Assignment\EmployeeWage\bin\Debug\netcoreapp3.1\EmployeeWage.exe
+C:\Users\bagav\saran\visual studio\Day9 Assignment\EmployeeWage\bin\Debug\netcoreapp3.1\EmployeeWage.deps.json
+C:\Users\bagav\saran\visual studio\Day9 Assignment\EmployeeWage\bin\Debug\netcoreapp3.1\EmployeeWage.runtimeconfig.json
+C:\Users\bagav\saran\visual studio\Day9 Assignment\EmployeeWage\bin\Debug\netcoreapp3.1\EmployeeWage.runtimeconfig.dev.json
+C:\Users\bagav\saran\visual studio\Day9 Assignment\EmployeeWage\bin\Debug\netcoreapp3.1\EmployeeWage.dll
+C:\Users\bagav\saran\visual studio\Day9 Assignment\EmployeeWage\bin\Debug\netcoreapp3.1\EmployeeWage.pdb
+C:\Users\bagav\saran\visual studio\Day9 Assignment\EmployeeWage\obj\Debug\netcoreapp3.1\EmployeeWage.csproj.AssemblyReference.cache
+C:\Users\bagav\saran\visual studio\Day9 Assignment\EmployeeWage\obj\Debug\netcoreapp3.1\EmployeeWage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bagav\saran\visual studio\Day9 Assignment\EmployeeWage\obj\Debug\netcoreapp3.1\EmployeeWage.AssemblyInfoInputs.cache
+C:\Users\bagav\saran\visual studio\Day9 Assignment\EmployeeWage\obj\Debug\netcoreapp3.1\EmployeeWage.AssemblyInfo.cs
+C:\Users\bagav\saran\visual studio\Day9 Assignment\EmployeeWage\obj\Debug\netcoreapp3.1\EmployeeWage.csproj.CoreCompileInputs.cache
+C:\Users\bagav\saran\visual studio\Day9 Assignment\EmployeeWage\obj\Debug\netcoreapp3.1\EmployeeWage.dll
+C:\Users\bagav\saran\visual studio\Day9 Assignment\EmployeeWage\obj\Debug\netcoreapp3.1\EmployeeWage.pdb
+C:\Users\bagav\saran\visual studio\Day9 Assignment\EmployeeWage\obj\Debug\netcoreapp3.1\EmployeeWage.genruntimeconfig.cache
