@@ -9,10 +9,11 @@ namespace EmployeeWage
         public const int wagePerHour = 20;
         public const int days = 20;
         public const int maxHours = 100;
-        static void Main(string[] args)
+
+        public static int computeWage()
         {
-            int empHr;
-            int wage, wagePerDay;
+            int empHr = 0;
+            int wage = 0, wagePerDay = 0;
 
             Console.WriteLine("Welcome to Employee Wage Computation");
             Console.WriteLine("------------------------------------");
@@ -28,22 +29,24 @@ namespace EmployeeWage
                 {
                     case isFullTime:
                         empHr = 8;
-                        wagePerDay = empHr * wagePerHour;
-                        wage = wagePerDay * days;
-                        Console.WriteLine("Employee is Full Time  Wage is " + wage);
                         break;
                     case isPartTime:
                         empHr = 4;
-                        wagePerDay = empHr * wagePerHour;
-                        wage = wagePerDay * days;
-                        Console.WriteLine("Employee is Part Time and Wage is " + wage);
                         break;
                     default:
                         empHr = 0;
                         break;
 
                 }
+                wagePerDay = empHr * wagePerHour;
+                wage = wagePerDay * days;
+                Console.WriteLine("Employee Wage is " + wage);
+                return wage;
             }
+        }
+        static void Main(string[] args)
+        {
+            computeWage();
         }
     }
 }
