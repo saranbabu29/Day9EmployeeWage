@@ -8,6 +8,7 @@ namespace EmployeeWage
         public const int isPartTime = 1;
         public const int wagePerHour = 20;
         public const int days = 20;
+        public const int maxHours = 100;
         static void Main(string[] args)
         {
             int empHr;
@@ -17,26 +18,31 @@ namespace EmployeeWage
             Console.WriteLine("------------------------------------");
             Console.WriteLine("");
 
-            Random random = new Random();
-            int value = random.Next(0, 2);
-            switch(value)
+            if (maxHours == 100 && days == 20)
             {
-                case isFullTime:
-                    empHr = 8;
-                    wagePerDay = empHr * wagePerHour;
-                    wage = wagePerDay * days;
-                    Console.WriteLine("Employee is Full Time and Wage is " +wage );
-                    break;
-                case isPartTime:
-                    empHr = 4;
-                    wagePerDay = empHr * wagePerHour;
-                    wage = wagePerDay * days;
-                    Console.WriteLine("Employee is Part Time and Wage is " +wage);
-                    break;
-                default:
-                    empHr = 0;
-                    break;
 
+
+                Random random = new Random();
+                int value = random.Next(0, 2);
+                switch (value)
+                {
+                    case isFullTime:
+                        empHr = 8;
+                        wagePerDay = empHr * wagePerHour;
+                        wage = wagePerDay * days;
+                        Console.WriteLine("Employee is Full Time  Wage is " + wage);
+                        break;
+                    case isPartTime:
+                        empHr = 4;
+                        wagePerDay = empHr * wagePerHour;
+                        wage = wagePerDay * days;
+                        Console.WriteLine("Employee is Part Time and Wage is " + wage);
+                        break;
+                    default:
+                        empHr = 0;
+                        break;
+
+                }
             }
         }
     }
